@@ -1,0 +1,56 @@
+@import '../styles/colors';
+.taskList{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  padding: 0.5rem;
+  li{
+    display: flex;
+    background-color: $white;
+    border: 1px solid $blue-100;
+    border-radius: 8px;
+    padding: 1rem;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+  p{
+    width: 100%;
+  }
+  button{
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    border-radius:8px ;
+    background-color: transparent;
+    color: $gray-500;
+    cursor: pointer;
+    transition: 0.2s;
+   
+
+
+
+
+
+ 
+ 
+  }
+
+  .trash{
+    &:hover{
+      background-color: $gray-100;
+      color: $red-400;
+    }
+  }
+
+
+  .pencil{
+    &:hover{
+      background-color: $gray-100;
+      color: #848af2;
+    }
+  }
+}
+
